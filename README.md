@@ -118,8 +118,7 @@ Optional:
 * Selecting anywhere on another user's workout program -> Sends user to a screen with the full workout plan
 
 ## Wireframes
-<img src="https://i.imgur.com/STzxqdS.jpg
-" width=600>
+<img src="https://github.com/Active-Plusplus/Active-plusplus/blob/main/Wireframe.jpeg" width=600>
 
 
 ## Schema 
