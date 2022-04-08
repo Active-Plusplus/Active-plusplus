@@ -1,7 +1,3 @@
-# Active-plusplus
-Original App Design Project - README Template
-===
-
 # Active++
 
 ## Table of Contents
