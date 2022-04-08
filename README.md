@@ -123,17 +123,18 @@ Optional:
 
 ## Schema 
 ### Models
-[Add table of models]
 #### Post
 
    | Property      | Type     | Description |
    | ------------- | -------- | ------------|
-   | objectId      | String   | unique id for the user post (default field) |
-   | author        | Pointer to User| image author |
-   | image         | File     | image that user posts |
-   | caption       | String   | image caption by author |
-   | commentsCount | Number   | number of comments that has been posted to an image |
-   | likesCount    | Number   | number of likes for the post |
+   | objectId      | String   | unique id for the user's workout program |
+   | author        | Pointer to User| Workout Program Author |
+   | exerciseName | String   | Exercise name that user enters |
+   | setAmount | Number   | Number of sets user wants |
+   | repAmount | Number   | Number of reps user wants |
+   | targetReps | Number   | Number of reps user is aiming for |
+   | description       | String   | Description written  by the author about the program |
+   | comments | String   | Additional Comments from the user in the workout plan |
    | createdAt     | DateTime | date when post is created (default field) |
    | updatedAt     | DateTime | date when post is last updated (default field) |
 
