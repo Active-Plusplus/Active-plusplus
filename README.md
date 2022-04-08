@@ -139,6 +139,31 @@ Optional:
    | updatedAt     | DateTime | date when post is last updated (default field) |
 
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
+   - Create a Workout Program Screen
+      - (Create/POST) Query logged in user object
+   - Exercise List Screen
+      - (Read/GET) Query objects of exercises from API
+   - Record a Workout 
+      - (Create/POST) Query logged in user object
+      - (Read/GET) Query all posts where user is author
+         ```swift
+         let query = PFQuery(className:"workoutProgram")
+         query.whereKey("author", equalTo: currentUser)
+         query.order(byDescending: "createdAt")
+         query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
+            if let error = error { 
+               print(error.localizedDescription)
+            } else if let posts = posts {
+               print("Successfully retrieved \(posts.count) posts.")
+           // TODO: Do something with posts...
+            }
+         }
+         ```
+      - (Create/POST) Create a new Workout Program 
+   - Previous Workout Screen
+      - (Delete) Delete Previous Workout
+      - (Update/PUT) Update user's workout session
+   - Follow Other Programs
+      - (Create/POST) Query logged in user object
+      - (Read/GET) Other user's workout programs
 
