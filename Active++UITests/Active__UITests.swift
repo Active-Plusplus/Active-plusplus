@@ -2,7 +2,7 @@
 //  Active__UITests.swift
 //  Active++UITests
 //
-//  Created by Tyler  Tran  on 4/8/22.
+//  Created by Adit Mohindra on 4/13/22.
 //
 
 import XCTest
@@ -27,6 +27,7 @@ class Active__UITests: XCTestCase {
         let app = XCUIApplication()
         app.launch()
 
+        // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
 

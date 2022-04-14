@@ -2,10 +2,11 @@
 //  AppDelegate.swift
 //  Active++
 //
-//  Created by Tyler  Tran  on 4/8/22.
+//  Created by Adit Mohindra on 4/13/22.
 //
 
 import UIKit
+import Parse
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -13,7 +14,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+            
+        let parseConfig = ParseClientConfiguration {
+                $0.applicationId = "5u1wCTswVgCUzGTm49w77JqsGjOgZe1LSmtKsElS" 
+                $0.clientKey = "Gy5oLZ76TkswHEQNmGXPyLF403zPVpntMvfw0UBT"
+                $0.server = "https://parseapi.back4app.com"
+        }
+        
+        Parse.initialize(with: parseConfig)
+            
         return true
     }
 
