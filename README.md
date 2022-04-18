@@ -52,7 +52,7 @@ d) Estimation: -
 e) Priority: -
 f) Done: The user will be able to view an exercises page through parsing an API.
 
-* ---- User Story ---- #4  - Tabbed View Controller and Flow Creation  - 
+- [X] ---- User Story ---- #4  - Tabbed View Controller and Flow Creation  - 
 As a user of the program, I want to be able to navigate the app using different views and tabbed bars.
 a) Description: Users can navigate throughout different app aspects.
 b) Assumptions: App icons are available.
@@ -163,3 +163,5 @@ Optional:
       - (Create/POST) Query logged in user object
       - (Read/GET) Other user's workout programs
 
+# Sprint 1 
+![](https://i.imgur.com/5lY0DsF.gif)
