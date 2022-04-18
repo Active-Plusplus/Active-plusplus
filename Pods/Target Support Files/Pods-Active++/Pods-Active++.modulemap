@@ -1,0 +1,6 @@
+framework module Pods_Active__ {
+  umbrella header "Pods-Active++-umbrella.h"
+
+  export *
+  module * { export * }
+}
