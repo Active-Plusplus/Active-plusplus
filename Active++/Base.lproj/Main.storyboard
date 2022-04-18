@@ -88,7 +88,7 @@
         <!--Feed View Controller-->
         <scene sceneID="xga-Vd-ee5">
             <objects>
-                <viewController id="KH3-iy-uVS" customClass="FeedViewController" customModule="Active__" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FeedNavigationController" id="KH3-iy-uVS" customClass="FeedViewController" customModule="Active__" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ku1-Bx-A7V">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
